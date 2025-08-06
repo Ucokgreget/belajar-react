@@ -1,0 +1,29 @@
+.listCategory{
+    font-size: 3rem;
+    background-color: aqua;
+    border: 1px solid;
+    text-align: center;
+    padding: 10px 20px;
+    color: hsl(0, 0%, 39%);
+    margin-bottom: 0px;
+}
+
+.listItems li{
+    font-size: 1.5em;
+    margin-top: 10px;
+    list-style: none;
+    text-align: center;
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+}
+
+.listItems{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listItems li:hover{
+    color: hsl(0, 0%, 40%);
+}
+
