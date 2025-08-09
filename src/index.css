@@ -34,3 +34,40 @@
   font-family: Arial, Helvetica, sans-serif;
   color: hsl(0, 0%, 30%);
 }
+
+.button-klik{
+  font-size: 2rem;
+}
+
+.gambar-apalah{
+  width: 200px;
+  margin-bottom: 20px;
+  display: flex;
+}
+.counter-container{
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter-display{
+  font-size: 10rem;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.2rem;
+  margin: 0px 5px;
+  background-color: hsl(204, 100%, 53%);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.counter-button:hover{
+  background-color: hsl(204, 100%, 43%);
+}
