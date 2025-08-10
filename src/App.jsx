@@ -6,13 +6,16 @@ import UseState from './UseState.jsx';
 import Counter from './Counter.jsx';
 import MyComponent from './MyComponent.jsx';
 import ColorPicker from './ColorPicker.jsx';
+import UpdateObject from './UpdateObject.jsx';
+import UpdateArray from './UpdateArray.jsx';
 
 
 function App() {
 
   return(
     <>
-    <ColorPicker />
+    <UpdateObject />
+    <UpdateArray />
     </>
   )
 
