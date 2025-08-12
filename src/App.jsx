@@ -8,14 +8,15 @@ import MyComponent from './MyComponent.jsx';
 import ColorPicker from './ColorPicker.jsx';
 import UpdateObject from './UpdateObject.jsx';
 import UpdateArray from './UpdateArray.jsx';
+import UpdateArrayObject from './UpdateArrayObject.jsx';
+import ToDoList from './To-Do-List/ToDoList.jsx';
 
 
 function App() {
 
   return(
     <>
-    <UpdateObject />
-    <UpdateArray />
+    <ToDoList />
     </>
   )
 
