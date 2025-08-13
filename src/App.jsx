@@ -10,13 +10,14 @@ import UpdateObject from './UpdateObject.jsx';
 import UpdateArray from './UpdateArray.jsx';
 import UpdateArrayObject from './UpdateArrayObject.jsx';
 import ToDoList from './To-Do-List/ToDoList.jsx';
-
+import UseEffect from './UseEffect.jsx';
+import DigitalClock from './DigitalClock.jsx';
 
 function App() {
 
   return(
     <>
-    <ToDoList />
+    <DigitalClock />
     </>
   )
 

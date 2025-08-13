@@ -1,8 +1,5 @@
 /* ToDoList.module.css */
-:global(body) {
-  background-color: hsl(0, 0%, 10%);
-  margin: 0;
-}
+
 
 .toDoList{
     font-family: Arial, Helvetica, sans-serif;
@@ -15,9 +12,6 @@ h1{
     color: white;
 }
 
-.text{
-
-}
 
 button{
     font-size:  1.7rem;
@@ -57,6 +51,7 @@ input[type="text"]{
     border: 2px solid hsla(0, 0%, 0%, 0.541);
     border-radius: 5px;
     color: hsla(0, 0%, 0%, 0.507);
+    margin-left: 20px;
 }
 
 ol{
